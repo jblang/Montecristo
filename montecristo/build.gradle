@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.4.21'
+    ext.kotlin_version = '1.8.0'
 
     repositories {
         mavenCentral()
@@ -42,7 +42,7 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
     implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2"
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2'
-    implementation 'org.apache.cassandra:cassandra-all:4.0.16'
+    implementation 'org.apache.cassandra:cassandra-all:4.0.19'
     implementation 'org.apache.commons:commons-lang3:3.18.0'
     implementation 'org.apache.lucene:lucene-core:7.2.1'
     implementation 'org.apache.lucene:lucene-queryparser:7.5.0'
