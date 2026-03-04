@@ -35,7 +35,7 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.2.13'
     implementation 'ch.qos.logback:logback-core:1.2.13'
     implementation 'org.apache.commons:commons-csv:1.6'
-    implementation 'org.yaml:snakeyaml:1.17'
+    implementation 'org.yaml:snakeyaml:2.4'  // Upgraded from 1.17, fixes CVE-2022-1471
     implementation 'com.beust:jcommander:1.78'
     implementation 'com.github.spullara.mustache.java:compiler:0.9.5'
     implementation 'commons-io:commons-io:2.14.0'
@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2'
     implementation 'org.apache.cassandra:cassandra-all:4.0.19'
     implementation 'org.apache.commons:commons-lang3:3.18.0'
+    implementation 'commons-codec:commons-codec:1.17.1'  // Force upgrade from 1.9 (transitive from Cassandra), fixes WS-2019-0379
     implementation 'org.apache.lucene:lucene-core:7.2.1'
     implementation 'org.apache.lucene:lucene-queryparser:7.5.0'
     implementation 'com.beust:klaxon:5.4'
