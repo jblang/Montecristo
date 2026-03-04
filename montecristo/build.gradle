@@ -24,7 +24,7 @@ repositories {
     maven { url "https://mvnrepository.com/artifact/" }
 }
 application {
-    mainClassName = "com.datastax.montecristo.MontecristoKt"
+    mainClass = "com.datastax.montecristo.MontecristoKt"
 }
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
@@ -86,6 +86,12 @@ kapt {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+installDist {
+    if (project.hasProperty('installPath')) {
+        destinationDir = file(installPath)
+    }
+}
+
 wrapper {
     distributionType = Wrapper.DistributionType.ALL
 }

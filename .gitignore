@@ -1,0 +1,10 @@
+old-c-stats-converter/bin/
+dse-stats-converter/.gradle/
+dse-stats-converter/build/
+dse-stats-converter/libs/
+montecristo/.gradle
+montecristo/build
+montecristo/bin/
+montecristo/montecristo-report.txt
+montecristo/src/main/resources/hugo.zip
+montecristo/DEV_HOME_IS_UNDEFINED/
