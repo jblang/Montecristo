@@ -43,7 +43,7 @@ dependencies {
     implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.11.2"
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.1'
     implementation 'org.apache.cassandra:cassandra-all:4.0.16'
-    implementation 'org.apache.commons:commons-lang3:3.8.1'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
     implementation 'org.apache.lucene:lucene-core:7.2.1'
     implementation 'org.apache.lucene:lucene-queryparser:7.5.0'
     implementation 'com.beust:klaxon:5.4'
