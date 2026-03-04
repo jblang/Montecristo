@@ -36,7 +36,7 @@ dependencies {
     implementation 'ch.qos.logback:logback-core:1.2.13'
     implementation 'org.apache.commons:commons-csv:1.6'
     implementation 'org.yaml:snakeyaml:1.17'
-    implementation 'com.beust:jcommander:1.72'
+    implementation 'com.beust:jcommander:1.78'
     implementation 'com.github.spullara.mustache.java:compiler:0.9.5'
     implementation 'commons-io:commons-io:2.6'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'
