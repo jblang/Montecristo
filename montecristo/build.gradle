@@ -45,6 +45,7 @@ dependencies {
     implementation 'org.apache.cassandra:cassandra-all:4.0.19'
     implementation 'org.apache.commons:commons-lang3:3.18.0'
     implementation 'commons-codec:commons-codec:1.17.1'  // Force upgrade from 1.9 (transitive from Cassandra), fixes WS-2019-0379
+    implementation 'io.netty:netty-all:4.1.131.Final'  // Force upgrade from 4.1.58.Final (transitive from Cassandra), fixes multiple CVEs
     implementation 'org.apache.lucene:lucene-core:7.2.1'
     implementation 'org.apache.lucene:lucene-queryparser:7.5.0'
     implementation 'com.beust:klaxon:5.4'
