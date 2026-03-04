@@ -39,9 +39,9 @@ dependencies {
     implementation 'com.beust:jcommander:1.78'
     implementation 'com.github.spullara.mustache.java:compiler:0.9.5'
     implementation 'commons-io:commons-io:2.14.0'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'
-    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.11.2"
-    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2"
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2'
     implementation 'org.apache.cassandra:cassandra-all:4.0.16'
     implementation 'org.apache.commons:commons-lang3:3.18.0'
     implementation 'org.apache.lucene:lucene-core:7.2.1'
